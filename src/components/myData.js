@@ -31,7 +31,7 @@ const projectData = [
       youtube: 'https://www.youtube.com/watch?v=9Yr-5DsVitw&list=PLx0iOsdUOUmk6YoAw7y5AbHeXf45tuNnF&index=17&t=0s',
       deployed: 'https://soko-city.firebaseapp.com/'
     },
-    shortContent: 'My team of four built SokoCity with inspiration from a popular farming game called Stardew Valley. We recreated some of our favorite gaming features: NPC interactivity, puzzle challenges, randomized layouts and level progression.',
+    shortContent: 'My team of four built SokoCity with inspiration from the popular farming game Stardew Valley. We recreated some of our favorite gaming features: NPC interactivity, puzzle challenges, randomized layouts and level progression.',
     longContent: "Welcome to SokoCity, a role-playing game featuring logic puzzles and food quests. /n /n My team of four built this game with inspiration from Stardew Valley, a popular farming game released in 2016. We wanted to recreate some of our favorite gaming features: NPC interactivity, puzzle challenges, randomized layouts and level progression. And so SokoCity was born. /n /n A major challenge proved to be the integration of a puzzle generation Node module with Phaser.io, our chosen gaming framework. The puzzle generator guaranteed a puzzle layout that was technically solveable. But we needed to manipulate that output to become Phaser-readable input. I took on this issue. With a series of mapping functions, created a layer for each individual object in the puzzle- a box, a wall, or a goal tile. This allowed my team to add custom physics properties in Phaser, rendering a functional puzzle within our gaming world."
   },
   {

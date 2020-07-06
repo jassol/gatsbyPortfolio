@@ -1,6 +1,6 @@
 import React from 'react';
 import SEO from "../components/seo";
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 import Layout from "../components/layout";
 
 import GenericPageTitle from '../components/genericPageTitle';

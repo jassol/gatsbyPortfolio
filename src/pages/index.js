@@ -9,17 +9,11 @@ import Button from "../components/button"
 import Skills from "../components/skills"
 import GenericPageTitle from "../components/genericPageTitle"
 
-// const links = [
-//   {link:'/projects/',text:'see projects'},
-//   {link:'/contact/',text:'contact me'}
-// ];
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
     <QuickAbout />
-    {/* <Contact /> */}
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div> */}

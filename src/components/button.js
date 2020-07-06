@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "gatsby"
 
 const Button = (props) => {
   const {link, text} = props;
@@ -24,7 +23,3 @@ const Button = (props) => {
 }
 
 export default Button;
-
-{/* <a href="https://soko-city.firebaseapp.com/" target="_blank" >
-<button>Play Now</button>
-</a> */}

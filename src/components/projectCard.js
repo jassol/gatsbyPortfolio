@@ -1,6 +1,8 @@
 import React from "react"
-import Image from "./image"
-import Button from "./button"
+// import Image from "./image"
+import Button from "./button";
+import Img from "gatsby-image";
+
 
 /*
 projData = {
@@ -15,9 +17,10 @@ projData = {
 }
 */
 
-const ProjectCard = (projData) => {
-  const {stack, shortContent, description, links} = projData.proj;
-  console.log(links.keys)
+const ProjectCard = (props) => {
+  const {date,stack, shortContent, description, links} = props.proj;
+  console.log(props.fluid)
+  // const {sizes} = props.photo;
   return (
     <div
     style={{
@@ -41,7 +44,7 @@ const ProjectCard = (projData) => {
           <div style={{maxWidth: 600}}>
             <h2>{description}</h2>
             <p>{stack.join(' • ')}</p>
-            <p>{shortContent}</p>
+            <p>{shortContent} <i>{date}.</i></p>
             {/* <div> */}
               {Object.keys(links).map((key, i) => {
                 return <Button link={links[key]} text={key} key={i} />
@@ -49,11 +52,16 @@ const ProjectCard = (projData) => {
             {/* </div> */}
           </div>
           <div style={{
-            width: '120px',
+            width: '250px',
             alignSelf: 'center',
             margin: '1.7rem 0'
           }}>
-              <Image />
+              {/* <Image /> */}
+              <Img
+                title="Project Image"
+                alt="Project Image"
+                fluid={props.fluid}
+              />
           </div>
       </div>
     </div>
