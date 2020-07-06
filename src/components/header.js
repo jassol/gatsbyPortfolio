@@ -17,7 +17,8 @@ const Header = ({ siteTitle }) => (
       position: 'fixed',
       top: 0,
       display: 'flex',
-      width: '-webkit-fill-available'
+      width: '-webkit-fill-available',
+      zIndex: '1'
     }}
   >
     <div

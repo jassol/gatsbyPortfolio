@@ -20,9 +20,6 @@ const IndexPage = () => (
     {/* <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
     <GenericPageTitle pageTitle="What I Can Do" />
     <Skills />
-    <Button link={'/projects'} text={'see projects'} />
-    <Button link={'/contact'} text={'contact me'} />
-
   </Layout>
 )
 

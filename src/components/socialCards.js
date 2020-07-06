@@ -1,5 +1,6 @@
 import React from "react";
 import * as data from "./myData";
+import Button from "./button";
 
 const SocialCards = (socialData) => {
   return (
@@ -21,7 +22,7 @@ const SocialCards = (socialData) => {
 */
 
 const SocialCard = (socialData) => {
-  const {type, link} = socialData.site;
+  const {type, text, link} = socialData.site;
   return (
     <div
     style={{
@@ -41,8 +42,8 @@ const SocialCard = (socialData) => {
           padding: `0 1.0875rem`
         }}
         >
-        <h2>{type}</h2>
-        <p>{link}</p>
+        <h2 style={{width:200}}>{type}</h2>
+        <Button link={link} text={text} />
       </div>
     </div>
   )

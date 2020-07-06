@@ -19,7 +19,7 @@ const SecondPage = (props) => {
         margin: '0 0 8rem 0',
         padding: '0.5rem'
       }}>
-        {projectData.map((proj,i) => <ProjectCard key={i} proj={proj} fluid={props.data.file.childImageSharp.fluid} />)}
+        {projectData.map((proj,i) => <ProjectCard key={i} proj={proj} fluid={props.data.allFile.edges[i]} />)}
       </div>
     </Layout>
   )
@@ -27,14 +27,33 @@ const SecondPage = (props) => {
 
 export default SecondPage;
 
+// export const query = graphql`
+//   query {
+//     file(relativePath: { eq: "sokoCity.png" }) {
+//       childImageSharp {
+//         fluid(maxWidth: 250) {
+//           ...GatsbyImageSharpFluid
+//         }
+//       }
+//     }
+//   }
+// `
+
 export const query = graphql`
-  query {
-    file(relativePath: { eq: "sokoCity.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 250) {
-          ...GatsbyImageSharpFluid
+  query artImages {
+    allFile(filter: { relativePath: { regex: "/projectImages/.*.png/" } } )
+    {
+      edges {
+        node {
+          relativePath
+          name
+          childImageSharp {
+            fluid(maxWidth: 250) {
+              ...GatsbyImageSharpFluid
+            }
+          }
         }
       }
     }
   }
-`
+`;

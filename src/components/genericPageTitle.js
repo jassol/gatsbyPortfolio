@@ -6,7 +6,6 @@ const GenericPageTitle = ({pageTitle}) => (
       margin: `5rem auto`,
       maxWidth: 960,
       padding: `0 1.0875rem`,
-      // padding: '0 0.5rem'
     }}
   >
     <h1>

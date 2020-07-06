@@ -1,7 +1,7 @@
 const projectData = [
   {
     name: 'ProBanker Simulations Data Viz',
-    date: 'July 2020 - now',
+    date: 'July 2020 to now',
     description: 'Finance Model Data Viz',
     stack: ['Javascript', 'XML', 'XSLT', 'D3.js'],
     links: {
@@ -12,8 +12,8 @@ const projectData = [
   },
   {
     name: 'PPSC Portal',
-    date: 'May 2020 - now',
-    description: 'Member Portal for Solar Group',
+    date: 'May 2020 to now',
+    description: 'Member Portal for Solar Company',
     stack: ['Javascript', 'React/Redux', 'Express', 'Airtable', 'Mocha/Chai/Sinon'],
     links: {
       github: 'https://github.com/people-power-solar',
@@ -49,11 +49,11 @@ const projectData = [
 ];
 
 const socialData = [
-  {type: 'github', link: 'https://github.com/jassol'},
-  {type: 'linkedin', link: 'https://www.linkedin.com/in/jasminsoltani/'},
-  {type: 'medium', link: 'https://medium.com/@jassol'},
-  {type: 'email', link: 'mailto:jksoltani@gmail.com'},
-  {type: 'resumé', link: 'localPathHere'}
+  {type: 'github', text: 'see those commits', link: 'https://github.com/jassol'},
+  {type: 'linkedin', text: 'connect with me', link: 'https://www.linkedin.com/in/jasminsoltani/'},
+  {type: 'medium', text: 'read my stuff', link: 'https://medium.com/@jassol'},
+  {type: 'email', text: 'drop me a line', link: 'mailto:jksoltani@gmail.com'},
+  {type: 'resumé', text: 'check it out', link: 'localPathHere'}
 ];
 
 export {

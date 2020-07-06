@@ -13,9 +13,9 @@ const QuickAbout = () => (
         }}
         >
       <h1>Hi, I'm Jasmin.</h1>
-      <p>Professionally, I am full stack developer working in primarily Javascript. I am curious about how things are made: in my previous life that curiosity was about global supply chains, and now it is about the software tools that make our world run.
+      <p>Professionally I am a full stack developer working primarily in Javascript. My background in supply chain management taught me that not all software is good software: I became an engineer to fix that. My goal is to build digital products that are speedy, reliable and intuitive.
       </p>
-      <p> Unprofessionally, I am a puzzle-solver and coffee-lover.</p>
+      <p> Unprofessionally, I love backpacking, board games, and interior design. Also, donuts. Seriously. If you want to know the best place in NYC, let's talk.</p>
       {/* TODO fix this resume link to serve up resume */}
       {/* <a href="./assets/Jasmin.Soltani.pdf" target="_blank" >
         <div>resum&eacute;</div>

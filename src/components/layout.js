@@ -36,9 +36,9 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer style={{
           textAlign: 'center',
-          padding: '0.2rem',
+          padding: '0.5rem',
           backgroundColor: '#F0F0F0',
-          fontSize: 'small'
+          // fontSize: 'small'
         }}>
           © {new Date().getFullYear()} Jasmin Soltani
         </footer>
