@@ -90,6 +90,10 @@ img {
 svg:not(:root) {
   overflow: hidden;
 }
+svg, svg path {
+  margin: 0;
+  padding: 0;
+}
 code,
 kbd,
 pre,
