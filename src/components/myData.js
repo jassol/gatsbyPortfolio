@@ -51,7 +51,7 @@ const projectData = [
 const socialData = [
   {type: 'github', text: 'see those commits', link: 'https://github.com/jassol'},
   {type: 'linkedin', text: 'connect with me', link: 'https://www.linkedin.com/in/jasminsoltani/'},
-  {type: 'medium', text: 'read my stuff', link: 'https://medium.com/@jassol'},
+  {type: 'medium', text: 'read my thoughts', link: 'https://medium.com/@jassol'},
   {type: 'email', text: 'drop me a line', link: 'mailto:jksoltani@gmail.com'},
   {type: 'resumé', text: 'check it out', link: 'localPathHere'}
 ];

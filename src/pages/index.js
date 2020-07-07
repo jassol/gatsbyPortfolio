@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 // import Image from "../components/image"
 import QuickAbout from "../components/quickAbout"
 import SEO from "../components/seo"
-import Button from "../components/button"
+// import Button from "../components/button"
 import Skills from "../components/skills"
 import GenericPageTitle from "../components/genericPageTitle"
 
@@ -18,7 +18,7 @@ const IndexPage = () => (
       <Image />
     </div> */}
     {/* <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
-    <GenericPageTitle pageTitle="What I Can Do" />
+    <GenericPageTitle pageTitle="Technical Skills" />
     <Skills />
   </Layout>
 )
