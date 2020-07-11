@@ -7,7 +7,7 @@ const Skills = () => (
     padding: `0 1.0875rem 8rem`,
   }}>
     <h2>Frontend</h2>
-    <p>React, Redux, HTML, CSS, D3.JS (Data Viz), Phaser.io (Gaming)</p>
+    <p>Javascript, React, Redux, HTML, CSS, D3.JS (Data Viz), Phaser.io (Gaming)</p>
     <h2>Backend</h2>
     <p>Node.js, Express, Sequelize, Postgres/SQL, Firebase/NoSQL, Airtable</p>
     <h2>Testing</h2>

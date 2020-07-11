@@ -9,7 +9,7 @@ const NotFound = () => (
     }}
   >
     <p>
-      Whoopsie! Click the navigation bar to go back to a working page!
+      Whoopsie! Click the navigation bar to go back to a working page.
     </p>
   </div>
 )

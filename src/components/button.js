@@ -1,20 +1,21 @@
 import React from 'react';
+// import { useStaticQuery, graphql } from "gatsby"
 
 const colors = ['#cdc7e5', '#a6cfd5', '#d7af70', '#9cb380', '#e58f65', '#cf8ba9']
 
 const Button = (props) => {
   const {link, text} = props;
+
   const mouseOver = e => {
     e.preventDefault()
     const chosenColor = colors[Math.floor(Math.random()*colors.length)];
     e.target.style.backgroundColor = chosenColor;
-    e.target.style.fontStyle = 'italic';
-
+    // e.target.style.fontStyle = 'italic';
   }
   const mouseLeave = e => {
     e.preventDefault()
     e.target.style.backgroundColor = '#C0C0C0';
-    e.target.style.fontStyle = 'normal';
+    // e.target.style.fontStyle = 'normal';
 
   }
   return (

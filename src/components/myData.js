@@ -8,7 +8,7 @@ const projectData = [
       github: 'https://github.com/people-power-solar',
       deployed: 'https://peoplepower.netlify.app/'
     },
-    shortContent: "Coming Soon."
+    shortContent: "Data visualization for educational finance model simulations. I leverage the D3 library to take XML input and produce custom visualizations for simulation modules."
   },
   {
     name: 'PPSC Portal',
@@ -53,7 +53,7 @@ const socialData = [
   {type: 'linkedin', text: 'connect with me', link: 'https://www.linkedin.com/in/jasminsoltani/'},
   {type: 'medium', text: 'read my thoughts', link: 'https://medium.com/@jassol'},
   {type: 'email', text: 'drop me a line', link: 'mailto:jksoltani@gmail.com'},
-  {type: 'resumé', text: 'check it out', link: 'localPathHere'}
+  {type: 'resumé', text: 'check it out', link: 'Jasmin.Soltani.pdf'}
 ];
 
 export {
